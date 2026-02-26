@@ -1,0 +1,90 @@
+@import url('fonts/main_font.css');
+
+* {
+    margin: 0;
+    font-family: 'StratosSkyeng', sans-serif;
+}
+
+.title {
+    padding-top: 128px;
+    margin-bottom: 32px;
+}
+
+.content {
+    background-image: url(images/z.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    padding-left: calc(50% - 500px);  
+    padding-right: calc(50% - 500px);
+}
+
+.name {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.main-img {
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.main-text {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.list-title {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.text_part {
+    text-align: left;
+    font-size: 22px;
+    padding-bottom: 24px;
+}
+
+.meme-img {
+    width: 45%;
+    border-radius: 12px;
+    margin: 16px 0px;
+}
+
+.next-page {
+    background-color: #ff0000;
+    color: #e5effe;
+    padding: 11px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 38px;
+    position: absolute;
+    right: 100px;
+    top: 24px;
+}
+
+.prev-page {
+    background-color: #ff0000;
+    color: #e5effe;
+    padding: 11px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 38px;
+    position: absolute;
+    left: 100px;
+    top: 24px;
+}
+
+.in-one-line {
+    display: flex;
+    gap: 32px;
+}
+
+h1, p, li, ol {
+    color: rgb(255, 0, 0);
+}
